@@ -54,7 +54,9 @@ The direction of the net torque depends on which side of the horizontal belt the
 
 ![horiztorquecancel](HorizontalTorqueCancel.png)
 
-Net horizontal motion results in cancellation across opposite pairs of vertical carriages, which results in a torque around the horizontal axes. That said, gravity and gantry stiffness helps bias the differential output towards the horizontal, so the vertical torque is comparatively smaller.
+Net horizontal motion results in cancellation across opposite pairs of vertical carriages, which results in a torque around the horizontal axes. This torque is applied through the cross-gantry pieces, and since their carriages are rigid attachment points, net torque is eliminated.
+
+{Insert Vertical Torque Cancellation Diagram}
 
 ### Belt-Driven
 
