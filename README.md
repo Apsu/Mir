@@ -48,7 +48,11 @@ The result is that the system provides differential control of vertical and hori
 
 Because the half-units have mirrored belting in their horizontal axis, and because the differential actuation cancels their horizontal forces across the frame, this results in a net torque around the vertical axis from that pair of half-units.
 
+![horiztorque](HorizontalTorque.png)
+
 The direction of the net torque depends on which side of the horizontal belt the carriages are attached to. If one pair uses top belt attachment and the other uses bottom belt attachment, the net torques will themselves cancel across the center as well, for net vertical motion.
+
+![horiztorquecancel](HorizontalTorqueCancel.png)
 
 Net horizontal motion results in cancellation across opposite pairs of vertical carriages, which results in a torque around the horizontal axes. That said, gravity and gantry stiffness helps bias the differential output towards the horizontal, so the vertical torque is comparatively smaller.
 
