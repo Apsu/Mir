@@ -10,6 +10,10 @@ This design has the following major features:
 
 Mir has fixed motors and a fixed bed. The moving portions are driven entirely in parallel, without one axis moving the motors for another axis.
 
+Parallel kinematic systems are less prone to accumulated error than serial systems where actuators are chained together, each moving the position of the next in the chain.
+
+In 3D printers, having a fixed bed is also a benefit due to beds generally being the heaviest part to move. In addition, a bed changes its inertia as the piece progresses in being printed, due to the changing mass attached to the bed.
+
 ### Differential Actuation
 
 The arrangement of actuators in this design can be seen as a pair of H-bot 2-axis differential units, each unit 90 degrees (orthogonal) from the other, and each containing two motors. These H-bot units control a vertical (Z) and horizontal (X or Y) axis.
