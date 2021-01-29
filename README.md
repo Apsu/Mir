@@ -24,9 +24,9 @@ In 3D printers, having a fixed bed is also a benefit due to beds generally being
 
 The arrangement of actuators in this design can be seen as a pair of H-bot 2-axis differential units, each unit 90 degrees (orthogonal) from the other, and each containing two motors. These H-bot units control a vertical (Z) and horizontal (X or Y) axis.
 
-The units are split in half, with each half placed apart from each other across the center of the frame, containing one motor. When split this way, you get a T-shaped belt arrangement in each half-unit, each a mirror of its corresponding half.
+The units are split in half, with each half placed apart from each other across the center of the frame, containing one motor, and connect together via a rigid cross piece. When split this way, you get a T-shaped belt arrangement in each half-unit, each a mirror of its corresponding half.
 
-Driving a half-unit motor will result in diagonal movement of its carriage, moving both vertically and horizontally. Driving the other half-unit motor the same way will result in a diagonal movement that adds vertically but subtracts -- and therefore cancels -- horizontally. Driving the paired motors in opposite directions will cancel vertically and add horizontally.
+Driving a half-unit motor will result in diagonal movement of its carriage, moving both vertically and horizontally. Driving the other half-unit motor the same way will result in a diagonal movement that adds vertically but subtracts -- and therefore cancels the first unit's motion -- horizontally, due to the rigid cross connection. Driving the paired motors in opposite directions will cancel vertically and add horizontally.
 
 The result is that the system provides differential control of vertical and horizontal axes in parallel, giving full XYZ parallel motion.
 
