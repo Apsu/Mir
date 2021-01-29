@@ -1,10 +1,16 @@
 # Mir
 
-Mir is a differentially-actuated, fully-parallel, 3-axis 3D printer design.
+Mir is a highly-symmetric, differentially-actuated, fully-parallel, 3-axis 3D printer design.
 
 ## Overview
 
 This design has the following major features:
+
+### Symmetric
+
+Mir is symmetric within each axis, as well as across the XY gantry, and has other symmetries between combinations of sections.
+
+The amount and variety of mirrored symmetries in this design is why the codename is 'Mir'.
 
 ### Fully Parallel
 
@@ -32,10 +38,8 @@ The direction of the net torque depends on which side of the horizontal belt the
 
 Net horizontal motion results in cancellation across opposite pairs of vertical carriages, which results in a torque around the horizontal axes. That said, gravity and gantry stiffness helps bias the differential output towards the horizontal, so the vertical torque is comparatively smaller.
 
-### Symmetric
-
-Mir is symmetric within each axis, as well as across the XY gantry, and has other symmetries between combinations of sections.
-
 ### Belt-Driven
 
 Each actuator uses a belt path with only 90 and 180 degree turns, and no twists or parallel belting/stacked pulleys. Belt runs can be open or continuous as desired, though the reference design uses open runs, terminated on the driven carriages.
+
+Using belts for each axis allows for smooth motion with fine resolution, flexible scaling, lighter weight, and generally higher top speeds than screws.
