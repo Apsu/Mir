@@ -36,11 +36,11 @@ The units are split in half, with each half placed apart from each other across 
 
 Driving a half-unit motor will result in diagonal movement of its carriage, moving both vertically and horizontally. Driving the other half-unit motor the same way will result in a diagonal movement that adds vertically but subtracts -- and therefore cancels the first unit's motion -- horizontally, due to the rigid cross connection. 
 
-![pair](ZPairBeltPath.png)
+![zpair](ZPairBeltPath.png)
 
 Driving the paired motors in opposite directions will cancel vertically and add horizontally.
 
-{Insert XPairBeltPath Diagram}
+![xpair](XPairBeltPath.png)
 
 The result is that the system provides differential control of vertical and horizontal axes in parallel, giving full XYZ parallel motion.
 
@@ -56,7 +56,7 @@ The direction of the net torque depends on which side of the horizontal belt the
 
 Net horizontal motion results in cancellation across opposite pairs of vertical carriages, which results in a torque around the horizontal axes. This torque is applied through the cross-gantry pieces, and since their carriages are rigid attachment points, net torque is eliminated.
 
-{Insert Vertical Torque Cancellation Diagram}
+![verticaltorquecancel](VerticalTorqueCancel.png)
 
 ### Belt-Driven
 
