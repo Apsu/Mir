@@ -46,6 +46,8 @@ The result is that the system provides differential control of vertical and hori
 
 ### Torque Cancellation
 
+Net vertical motion results in torques that are balanced and cancelled in a novel way, as follows:
+
 Because the half-units have mirrored belting in their horizontal axis, and because the differential actuation cancels their horizontal forces across the frame, this results in a net torque around the vertical axis from that pair of half-units.
 
 ![horiztorque](HorizontalTorque.png)
@@ -54,7 +56,7 @@ The direction of the net torque depends on which side of the horizontal belt the
 
 ![horiztorquecancel](HorizontalTorqueCancel.png)
 
-Net horizontal motion results in cancellation across opposite pairs of vertical carriages, which results in a torque around the horizontal axes. This torque is applied through the cross-gantry pieces, and since their carriages are rigid attachment points, net torque is eliminated.
+Horizontal motion in one axis operates via cancellation across opposite pairs of vertical carriages, which results in a torque around the other horizontal axis. This torque is applied through the cross-gantry pieces, and since their carriages are rigid attachment points, and belt loops provide good static tension, net torque is significantly reduced.
 
 ![verticaltorquecancel](VerticalTorqueCancel.png)
 
