@@ -66,8 +66,6 @@ Each actuator uses a belt path with only 90 and 180 degree turns, and no twists 
 
 Using belts for each axis allows for smooth motion with fine resolution, flexible scaling, lighter weight, and generally higher top speeds than screws.
 
-![belt](BeltPath.png)
-
 ## Kinematics
 
 The relationship between the mirrored differential drive units is described by the following equations:
