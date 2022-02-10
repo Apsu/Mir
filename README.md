@@ -58,6 +58,8 @@ The direction of the net torque depends on which side of the horizontal belt the
 
 Horizontal motion in one axis operates via cancellation across opposite pairs of vertical carriages, which results in a torque around the other horizontal axis. This torque is applied through the cross-gantry pieces, and since their carriages are rigid attachment points, and belt loops provide good static tension, net torque is significantly reduced.
 
+This is difficult to represent visually but the following diagram may help.
+
 ![verticaltorquecancel](VerticalTorqueCancel.png)
 
 ### Belt-Driven
